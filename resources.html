@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God's Grace Online Tutor - Resources</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+            padding: 40px 20px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .back-home {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-bottom: 30px;
+            transition: background 0.3s ease;
+        }
+        
+        .back-home:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .resource-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+        
+        .resource-card h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .resource-list {
+            list-style: none;
+        }
+        
+        .resource-list li {
+            margin-bottom: 15px;
+        }
+        
+        .resource-link {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+            width: 100%;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .resource-link:hover {
+            background: #764ba2;
+        }
+        
+        .description {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-home">← Back to Home</a>
+        
+        <header>
+            <h1>📚 Learning Resources</h1>
+            <p>Study Materials & Reference Notes</p>
+        </header>
+        
+        <div class="resources-grid">
+            <!-- STUDY NOTES -->
+            <div class="resource-card">
+                <h2>📝 Study Notes</h2>
+                <ul class="resource-list">
+                    <li>
+                        <a href="#" class="resource-link">English Notes</a>
+                        <div class="description">Grammar rules, writing tips, literature analysis</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Mathematics Notes</a>
+                        <div class="description">Formulas, concepts, solved examples</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Science Notes</a>
+                        <div class="description">Important concepts and diagrams</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Social Studies Notes</a>
+                        <div class="description">Geography, history, and civics materials</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- REVISION GUIDES -->
+            <div class="resource-card">
+                <h2>🔍 Revision Guides</h2>
+                <ul class="resource-list">
+                    <li>
+                        <a href="#" class="resource-link">Quick Revision - Grade 4-5</a>
+                        <div class="description">Essential topics summary</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Comprehensive Guide - Grade 6</a>
+                        <div class="description">Detailed revision materials</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Advanced Topics - Grade 7-9</a>
+                        <div class="description">Complex concepts explained</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Last Minute Tips</a>
+                        <div class="description">Key points to remember</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- FORMULAS & TABLES -->
+            <div class="resource-card">
+                <h2>📊 Formulas & Tables</h2>
+                <ul class="resource-list">
+                    <li>
+                        <a href="#" class="resource-link">Maths Formulas Sheet</a>
+                        <div class="description">All formulas in one place</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Science Reference Table</a>
+                        <div class="description">Units, constants, periodic table</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Grammar Rules Chart</a>
+                        <div class="description">English grammar quick reference</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Historical Timeline</a>
+                        <div class="description">Important dates and events</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- PAST PAPERS ANALYSIS -->
+            <div class="resource-card">
+                <h2>📖 Past Papers Analysis</h2>
+                <ul class="resource-list">
+                    <li>
+                        <a href="#" class="resource-link">Exam Trends & Patterns</a>
+                        <div class="description">What appears frequently in exams</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Common Mistakes</a>
+                        <div class="description">Errors to avoid in exams</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Model Answers</a>
+                        <div class="description">Sample solutions to questions</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Mark Schemes</a>
+                        <div class="description">How exams are marked</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- VIDEO TUTORIALS -->
+            <div class="resource-card">
+                <h2>🎥 Video Tutorials</h2>
+                <ul class="resource-list">
+                    <li>
+                        <a href="#" class="resource-link">Concept Explanations</a>
+                        <div class="description">Video lessons for difficult topics</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Problem Solving</a>
+                        <div class="description">Step-by-step solutions</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Exam Techniques</a>
+                        <div class="description">How to approach exam questions</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Subject Masterclasses</a>
+                        <div class="description">In-depth topic coverage</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- INTERACTIVE TOOLS -->
+            <div class="resource-card">
+                <h2>🛠️ Interactive Tools</h2>
+                <ul class="resource-list">
+                    <li>
+                        <a href="#" class="resource-link">Online Calculator</a>
+                        <div class="description">Mathematical computations</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Grammar Checker</a>
+                        <div class="description">Check your writing</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Progress Tracker</a>
+                        <div class="description">Monitor your learning</div>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-link">Quiz Generator</a>
+                        <div class="description">Create practice quizzes</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 God's Grace Online Tutor. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
