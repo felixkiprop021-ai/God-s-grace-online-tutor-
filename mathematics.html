@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God's Grace Online Tutor - Mathematics Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+            padding: 40px 20px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .back-home {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-bottom: 30px;
+            transition: background 0.3s ease;
+        }
+        
+        .back-home:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .math-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .math-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .math-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+        
+        .math-card h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .math-list {
+            list-style: none;
+        }
+        
+        .math-list li {
+            margin-bottom: 15px;
+        }
+        
+        .math-link {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+            width: 100%;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .math-link:hover {
+            background: #764ba2;
+        }
+        
+        .topic-area {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        
+        .info-box {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: #333;
+        }
+        
+        .info-box h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .info-box p {
+            line-height: 1.8;
+            color: #666;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-home">← Back to Home</a>
+        
+        <header>
+            <h1>🔢 Mathematics Hub</h1>
+            <p>Comprehensive Mathematics Learning Platform</p>
+        </header>
+        
+        <div class="info-box">
+            <h2>Welcome to Our Mathematics Specialty!</h2>
+            <p>Mathematics is our core focus at God's Grace Online Tutor. We provide comprehensive materials covering all topics from Grade 4 to Grade 9, following the CBC/CBE curriculum. Whether you need practice problems, detailed explanations, or exam preparation, we have you covered!</p>
+        </div>
+        
+        <div class="math-grid">
+            <!-- GRADE 4 MATHEMATICS -->
+            <div class="math-card">
+                <h2>Grade 4 Mathematics</h2>
+                <ul class="math-list">
+                    <li>
+                        <a href="#" class="math-link">Number Concepts</a>
+                        <div class="topic-area">Place value, counting, comparing numbers</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Arithmetic Operations</a>
+                        <div class="topic-area">Addition, subtraction, multiplication, division</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Fractions & Decimals</a>
+                        <div class="topic-area">Basic fractions and decimal concepts</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Geometry & Shapes</a>
+                        <div class="topic-area">2D shapes, measurement, area, perimeter</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- GRADE 5 MATHEMATICS -->
+            <div class="math-card">
+                <h2>Grade 5 Mathematics</h2>
+                <ul class="math-list">
+                    <li>
+                        <a href="#" class="math-link">Advanced Arithmetic</a>
+                        <div class="topic-area">Complex calculations and operations</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Fractions & Decimals</a>
+                        <div class="topic-area">Operations with fractions and decimals</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Percentages</a>
+                        <div class="topic-area">Understanding and calculating percentages</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Data & Statistics</a>
+                        <div class="topic-area">Graphs, charts, and data interpretation</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- GRADE 6 MATHEMATICS -->
+            <div class="math-card">
+                <h2>Grade 6 Mathematics</h2>
+                <ul class="math-list">
+                    <li>
+                        <a href="#" class="math-link">Algebra Basics</a>
+                        <div class="topic-area">Expressions, equations, variables</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Geometry & Trigonometry</a>
+                        <div class="topic-area">Angles, triangles, coordinate geometry</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Ratios & Proportions</a>
+                        <div class="topic-area">Scales, rates, proportional relationships</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Probability</a>
+                        <div class="topic-area">Chance, outcomes, probability concepts</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- GRADE 7 MATHEMATICS -->
+            <div class="math-card">
+                <h2>Grade 7 Mathematics</h2>
+                <ul class="math-list">
+                    <li>
+                        <a href="#" class="math-link">Linear Equations</a>
+                        <div class="topic-area">Solving linear equations and inequalities</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Polynomials</a>
+                        <div class="topic-area">Polynomial operations and factoring</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Geometry Advanced</a>
+                        <div class="topic-area">Transformations, symmetry, 3D shapes</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Functions</a>
+                        <div class="topic-area">Function notation and graphing</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- GRADE 8 MATHEMATICS -->
+            <div class="math-card">
+                <h2>Grade 8 Mathematics</h2>
+                <ul class="math-list">
+                    <li>
+                        <a href="#" class="math-link">Quadratic Equations</a>
+                        <div class="topic-area">Solving quadratics, factoring, formula</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Systems of Equations</a>
+                        <div class="topic-area">Solving simultaneous equations</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Trigonometry</a>
+                        <div class="topic-area">Sine, cosine, tangent, applications</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Sequences & Series</a>
+                        <div class="topic-area">Arithmetic and geometric sequences</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- GRADE 9 MATHEMATICS -->
+            <div class="math-card">
+                <h2>Grade 9 Mathematics</h2>
+                <ul class="math-list">
+                    <li>
+                        <a href="#" class="math-link">Advanced Algebra</a>
+                        <div class="topic-area">Complex equations and exponents</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Calculus Intro</a>
+                        <div class="topic-area">Limits and basic derivatives</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Matrices</a>
+                        <div class="topic-area">Matrix operations and applications</div>
+                    </li>
+                    <li>
+                        <a href="#" class="math-link">Statistics & Probability</a>
+                        <div class="topic-area">Advanced statistical methods</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 God's Grace Online Tutor. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
